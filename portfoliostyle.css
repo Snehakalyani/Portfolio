@@ -1,0 +1,56 @@
+
+body, html
+{
+	width: 100%;
+	height: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+	
+
+
+	background: url(header.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+h1
+{
+	font-size: 100px;
+	color: #5b6c5b;
+}
+
+.btn
+{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+/*.buffer
+{
+	height: 10rem;
+}*/
+
+.btn-primary
+{
+	background-color: #2f3e2c ;
+	border-color: #2f3e2c;
+}
+.btn-primary:hover
+{
+	background-color: #9da59c;
+	border-color: #9da59c;
+	border-width: 4px;
+}
+
+.btn-xl
+{
+	padding: 1rem 2rem;	
+}
+hr {
+    margin: 20px auto;
+    color: #2f3e2c;;
+    border: 3px solid #2f3e2c;;
+    max-width: 65px;
+    opacity: 1;  
+}
